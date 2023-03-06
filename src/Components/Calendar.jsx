@@ -28,7 +28,7 @@ const Calendar = () => {
   }
 
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="xl" sx={{ marginTop: '6rem' }}>
       <CalendarHeader date={date} setDate={setDate} />
       <Grid container spacing={0} columns={7} direction={'row-reverse'}>
         <DaysOfTheWeek />
